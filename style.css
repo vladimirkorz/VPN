@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  background-color: #0B132A;
+  align-self: auto;
+  font-size: 16px;
+  color: #4F5665;
+  line-height: 1.2;
+}
+
+header {
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.logoimg {
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.logo span,
+strong {
+  color: #0B132A;
+}
+
+a {
+  text-decoration: none;
+  color: #4F5665;
+}
+
+header ul {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+.left-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.center-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header li {
+  margin-left: 40px;
+}
+
+.bold-text {
+  color: #0B132A;
+  font-weight: 500;
+}
+
+.left-nav span {
+  margin-left: 10px;
+}
+
+.white-button a {
+  max-width: 150px;
+  width: 150px;
+  max-height: 45px;
+  height: 45px;
+  color: #F53838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-button {
+  border: 1px solid #F53838;
+  border-radius: 30px;
+  max-width: 150px;
+  width: 150px;
+  max-height: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F53838;
+  background-color: #ffffff;
+}
+
+section {
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.flexv {
+  display: flex;
+}
+
+h1 {
+  max-widht: 555px;
+  color: #0B132A;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+span {
+  max-widht: 555px;
+  line-height: 2;
+}
+
+.section1 .half {
+  max-width: 555px;
+  width: 555px;
+}
+
+.section1 img {
+  right: 0;
+}
+
+button {
+  background-size: contain;
+  width: 250px;
+  height: 60px;
+  background-color: #F53838;
+  margin-top: 60px;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  border-width: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.block1 {
+  height: 200px;
+  box-shadow: 0px 10px 3px rgb(233, 232, 232);
+  margin-top: 80px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.block1 div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block1 img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.section2 {
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 35px;
+  color: #0B132A;
+  font-weight: 500;
+}
+
+.block2-2 {
+  margin-left: 150px;
+}
+
+.block2-2,
+.kupi li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: left;
+}
+
+.section3 {
+  background: linear-gradient(rgb(244, 244, 244), rgb(255, 255, 255));
+}
+
+.text-section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-widht: 555px;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.kupi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 330px;
+  max-height: 760px;
+  width: 330px;
+  height: 760px;
+  border: 2px solid #DDDDDD;
+  border-radius: 15px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cards {
+  justify-content: space-between;
+  display: flex;
+}
+
+.red-button-kupi {
+  border: 0;
+  border-radius: 30px;
+  max-width: 150px;
+  width: 150px;
+  max-height: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #F53838;
+}
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */

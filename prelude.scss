@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+$red: #F53838;
+$grey: #4F5665;
+$dark: #0B132A;
+$white: #ffffff;
+
+@mixin whight-body {
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: $white;
+}
+
+@mixin flex-element-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin sides {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@mixin limitetion-text {
+    max-widht: 555px;
+}
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin flex {
+    display: flex;
+}
+
+@mixin non-decoretion {
+    text-decoration: none;
+}
+
+@mixin bold-text {
+    color: $dark;
+    font-weight: 500;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    background-color: $dark;
+    align-self: auto;
+    font-size: 16px;
+    color: $grey;
+    line-height: 1.2;
+}
+
+header {
+    @include whight-body;
+    @include sides;
+    @include flex-element-center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logoimg {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.logo span,
+strong {
+    color: $dark;
+}
+
+a {
+    @include non-decoretion;
+    color: $grey;
+}
+
+header ul {
+    @include flex;
+    @include flex-element-center;
+    justify-content: space-between;
+}
+
+li {
+    @include reset;
+    list-style-type: none;
+}
+
+nav {
+    justify-content: space-between;
+    width: 100%;
+    @include flex;
+}
+
+.left-nav {
+    @include flex-element-center;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.center-nav {
+    @include flex-element-center;
+    justify-content: space-around
+}
+
+.right-nav {
+    @include flex-element-center;
+}
+
+header li {
+    margin-left: 40px;
+}
+
+.bold-text {
+    color: $dark;
+    font-weight: 500;
+}
+
+.left-nav span {
+    margin-left: 10px;
+}
+
+.white-button a {
+    max-width: 150px;
+    width: 150px;
+    max-height: 45px;
+    height: 45px;
+    color: $red;
+    @include flex-element-center;
+}
+
+.white-button {
+    border: 1px solid $red;
+    border-radius: 30px;
+    max-width: 150px;
+    width: 150px;
+    max-height: 45px;
+    height: 45px;
+    @include flex-element-center;
+    color: $red;
+    background-color: $white
+}
+
+section {
+    @include whight-body;
+    @include sides;
+}
+
+.flexv {
+    @include flex;
+}
+
+h1 {
+    @include limitetion-text;
+    @include bold-text;
+    font-size: 50px;
+}
+
+span {
+    @include limitetion-text;
+    line-height: 2;
+}
+
+.section1 .half {
+    max-width: 555px;
+    width: 555px;
+}
+
+.section1 img {
+    right: 0;
+}
+
+button {
+    background-size: contain;
+    width: 250px;
+    height: 60px;
+    background-color: $red;
+    margin-top: 60px;
+    border-radius: 15px;
+    color: $white;
+    font-weight: bold;
+    border-width: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.block1 {
+    height: 200px;
+    box-shadow: 0px 10px 3px rgb(233, 232, 232);
+    margin-top: 80px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    @include flex-element-center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.block1 div {
+    width: 100%;
+    @include flex-element-center;
+}
+
+.block1 img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.section2 {
+    padding-top: 130px;
+    padding-bottom: 100px
+}
+
+ul {
+    @include reset;
+}
+
+h2 {
+    font-size: 35px;
+    @include bold-text;
+}
+
+.block2-2 {
+    margin-left: 150px;
+}
+
+.block2-2,
+.kupi li {
+    @include flex-element-center;
+    justify-content: left;
+}
+
+.section3 {
+    background: linear-gradient(rgb(244, 244, 244), rgb(255, 255, 255));
+}
+
+.text-section3 {
+    @include flex-element-center;
+    @include limitetion-text;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.kupi {
+    @include flex-element-center;
+    max-width: 330px;
+    max-height: 760px;
+    width: 330px;
+    height: 760px;
+    border: 2px solid #DDDDDD;
+    border-radius: 15px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cards {
+    justify-content: space-between;
+    @include flex;
+}
+
+.red-button-kupi {
+    border: 0;
+    border-radius: 30px;
+    max-width: 150px;
+    width: 150px;
+    max-height: 45px;
+    height: 45px;
+    @include flex-element-center;
+    color: $white;
+    background-color: $red;
+}
+
+.section4 {
+    @include flex-element-center;
+    flex-direction: column;
+}
